@@ -445,11 +445,16 @@ def main(win):
         pygame.display.update()
 
         if check_lost(locked_positions):
+            win.fill((0,0,0))
             draw_text_middle("You lost! :(", 80, (255,255,255), win)
             pygame.display.update()
             pygame.time.delay(1500)
-            run = False
             update_score(score)
+
+            # return to main menu after pressing a key
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    main_menu(win)
 
 
 def main_menu(win):
