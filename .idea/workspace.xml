@@ -17,8 +17,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="393" column="31" lean-forward="true" selection-start-line="393" selection-start-column="31" selection-end-line="393" selection-end-column="31" />
+            <state relative-caret-position="212">
+              <caret line="390" column="20" lean-forward="true" selection-start-line="390" selection-start-column="20" selection-end-line="390" selection-end-column="20" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -56,6 +56,7 @@
       <find>draw_windo</find>
       <find>score</find>
       <find>time</find>
+      <find>level_time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,8 +219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="393" column="31" lean-forward="true" selection-start-line="393" selection-start-column="31" selection-end-line="393" selection-end-column="31" />
+        <state relative-caret-position="212">
+          <caret line="390" column="20" lean-forward="true" selection-start-line="390" selection-start-column="20" selection-end-line="390" selection-end-column="20" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

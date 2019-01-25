@@ -377,7 +377,7 @@ def main(win):
     fall_time = 0
     # how long it takes before each piece starts falling
     fall_speed = 0.27
-    level_time = 0
+    # level_time = 0
     score = 0
     r_clear = 0
 
@@ -387,15 +387,15 @@ def main(win):
         # raw time gets amount of time since last clock.tick()
         # so how long it took the while loop to run
         fall_time += clock.get_rawtime()
-        level_time += clock.get_rawtime()
+        # level_time += clock.get_rawtime()
         clock.tick()
 
         # every 5 seconds, increase the speed
-        if level_time/1000 > 5:
-            level_time = 0
-            if fall_speed > 0.12:
-                # 0.01 is very fast
-                fall_speed -= 0.005
+        # if level_time/1000 > 5:
+        #     level_time = 0
+        #     if fall_speed > 0.12:
+        #         # 0.01 is very fast
+        #         fall_speed -= 0.005
 
         if fall_time/1000 > fall_speed:
             fall_time = 0
@@ -455,6 +455,10 @@ def main(win):
                 score += rows_cleared * 15
             else:
                 score += rows_cleared * 10
+            # increase the speed every 5 rows cleared
+            if rows_cleared > 0 & (r_clear % 5) == 0:
+                if fall_speed > 0.12:
+                   fall_speed -= 0.005
 
         draw_window(win, grid, score, last_score, r_clear)
         draw_next_shape(next_piece, win)
