@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="585574f2-1683-4231-ae9d-bb1542806576" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tetris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tetris.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web_scraping/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web_scraping/main.py" afterDir="false" />
     </list>
@@ -22,8 +17,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="453" column="54" selection-start-line="453" selection-start-column="54" selection-end-line="453" selection-end-column="54" />
+            <state relative-caret-position="274">
+              <caret line="393" column="31" lean-forward="true" selection-start-line="393" selection-start-column="31" selection-end-line="393" selection-end-column="31" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -57,6 +52,10 @@
       <find>draw_text</find>
       <find>check</find>
       <find>pygame.display.update</find>
+      <find>clear_rows</find>
+      <find>draw_windo</find>
+      <find>score</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,8 +218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="453" column="54" selection-start-line="453" selection-start-column="54" selection-end-line="453" selection-end-column="54" />
+        <state relative-caret-position="274">
+          <caret line="393" column="31" lean-forward="true" selection-start-line="393" selection-start-column="31" selection-end-line="393" selection-end-column="31" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
